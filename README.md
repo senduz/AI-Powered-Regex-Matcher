@@ -186,12 +186,6 @@ def explain_error(raw_error: str) -> str:
 
 ---
 
-
-```
-
-
-
-
 ## Quick Start
 
 
