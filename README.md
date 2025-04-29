@@ -15,11 +15,47 @@ Regex Match is a **Django 5.2** (REST) backend + **React 18 / Material-UI 5** fr
 
 ## Video Demonstration
 
-**Uploading Soon**
+[![Watch the video](https://img.youtube.com/vi/SI7Qd1jnRco/maxresdefault.jpg)](https://www.youtube.com/watch?v=SI7Qd1jnRco)
 
 
 
+---
 
+## Quick Start
+
+Please add your OpenAI API key in the provided .env file
+
+### Mac
+```bash
+# Backend
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python manage.py runserver
+
+# Frontend
+cd regex-front
+npm install
+npm start
+```
+### Windows
+```bash
+# Backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py runserver
+
+# Frontend
+cd regex-front
+npm install
+npm start
+```
+
+Access via:
+- Frontend: http://localhost:3000
+- Backend: http://127.0.0.1:8000
+
+---
 
 
 ## Features
@@ -183,30 +219,6 @@ def explain_error(raw_error: str) -> str:
 - Frontend: React 18, Material UI 5, react-window 1.8
 - LLM Integration: OpenAI 1.x
 - Utilities: Pandas, NumPy, CORS Headers
-
----
-
-## Quick Start
-
-
-```bash
-# Backend
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env    # add your OpenAI key
-python manage.py runserver
-
-# Frontend
-cd regex-front
-npm install
-npm start
-```
-
-Access via:
-- Frontend: http://localhost:3000
-- Backend: http://127.0.0.1:8000
-
----
 
 ## API Spec
 
