@@ -23,7 +23,7 @@ Regex Match is a **Django 5.2** (REST) backend + **React 18 / Material-UI 5** fr
 
 ## Quick Start
 
-Please add your OpenAI API key in the provided .env file
+Please add your OpenAI API key in the provided .env file inside the backend: [`.env`](https://github.com/senduz/AI-Powered-Regex-Matcher/blob/main/RegexMatching/.env)
 
 ### Mac
 ```bash
